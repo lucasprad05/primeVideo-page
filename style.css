@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url(fonts/AmazonEmber_Lt.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --color-backgorund: #00050d;
+    --color-primary: #FFFFFF;
+    --color-secondary: #aaa;
+    --color-tertiary: #0F79AF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Amazon Ember";
+}
+
+.header__box {
+    color: var(--color-secondary);
+    background-color: var(--color-backgorund);
+    position: fixed;
+}   
+
+.header__items {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    margin: 0 27rem;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: "Amazon Ember";
+}
+
+.header__logo {
+    width: 120px;
+    height: 22px;
+    margin-right: 78px;
+}
+
+.header__details {
+    margin-left: 12px;
+    /* border: 1px solid yellow; */
+    height: 20px;
+}
+
+.arrow {
+    /* margin-left: 5px; */
+    padding: 0 12px 0 5px;
+}
+
+.header_search {
+    margin-left: 112px;
+}
+
+.header_right {
+    margin-left: 50px;
+}
+
+.header__account {
+    margin-left: 40px;
+}
+
+.container {
+    height: 678px;
+    display: grid;
+}
+
+.principal {
+    background-image: linear-gradient(to right, black 40%, transparent 58%), url("assets/principalBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    align-items: center;
+    color: var(--color-primary);
+}
+
+.container__box {
+    margin: 0 6em;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 33px;
+    /* border: 1px solid yellow; */
+}
+
+.container__titulo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container__descricao {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.container__botao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: var(--color-tertiary);
+    width: 280px;
+    height: 54px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 17px;
+    /* border: 1px solid red; */
+}
+
+.button__control {
+    text-align: center;
+    display: flex;
+    width: 35%;
+    gap: 12px;
+    flex-direction: column;
+    /* border: 1px solid purple; */
+}
+
+.spam__line {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.spam {
+    margin: 11px auto 11px;
+    width: 44%;
+    border-bottom: 1px solid #fff;
+    line-height: .1em;
+}
+
+
+.secundario {
+    display: flex;
+}
+
+.texto__secundario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    margin-left: 100px;
+    color: #000000;
+    gap: 24px;
+}
+
+.titulo__secundario {
+    font-weight: lighter;
+    font-size: 44px;
+}
+
+.descricao__secundario {
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.rodape__secundario {
+    font-weight: lighter;
+    font-size: 20.8px;
+}
+
+.table {
+    border-spacing: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.row__table {
+    display: flex;
+    gap: 10px;
+}
+
+.tabela__icon {
+    width: 260px;
+    height: 180px;
+}
+
+
+.terciario {
+    background-image: linear-gradient(to left, black 40%, transparent 58%), url("assets/fundoSecundario.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+.container__box__terciario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    color: var(--color-primary);
+    padding-left: 55%;
+}
+
+.terciario_titulo {
+    font-size: 40px;
+}
+
+.terciario_descricao {
+    font-size: 21px;
+}
+
+.terciario_botao {
+    margin-top: 24px;
+}
+
+.terciario_aviso {
+    font-size: 15px;
+}
+
+.dispositivos {
+    height: 580px;
+}
+
+.dispositivos__lista {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-top: 60px;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3!important;
+}
+
+.devices__text {
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+
+.rodape {
+    height: 119px;
+    background-color: #222222;
+    padding-top: 24px;
+    display: grid;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--color-tertiary);
+    padding: 0 10px;
+}
+
+.footer_img{
+    display: inline-block;
+    height: auto;
+}
+
+.copyright {
+    color: var(--color-secondary);
+    padding: auto;
+}
