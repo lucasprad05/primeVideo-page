@@ -182,6 +182,9 @@
     height: 180px;
 }
 
+.tabela__icon:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 1);
+}
 
 .terciario {
     background-image: linear-gradient(to left, black 40%, transparent 58%), url("assets/fundoSecundario.jpg");
